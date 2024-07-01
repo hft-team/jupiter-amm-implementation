@@ -7,12 +7,12 @@ members = [
 edition = "2021"
 
 [workspace.dependencies]
-anchor-lang = "0.28"
-anchor-syn = "0.28"
-solana-sdk = "~1.16"
-solana-client = "~1.16"
-solana-account-decoder = "~1.16"
-solana-program-test = "~1.16"
+anchor-lang = "0.29"
+anchor-syn = "0.29"
+solana-sdk = "~1.18"
+solana-client = "~1.18"
+solana-account-decoder = "~1.18"
+solana-program-test = "~1.18"
 tokio = { version = "1", features = ["full"] }
 
 anchor-gen = { git = "https://github.com/jup-ag/anchor-gen.git", rev = "26c04a10d20509f360ab176d003bea4c625b16f2" }
